@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#bulletin-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid black;
+
+}
+
+table{
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+tr td{
+    border: 2px solid black;
+    padding: 20px;
+    border-collapse: collapse;
+}
+table 
+
+button {
+    margin-top: 10px;
+}
+
+.subject-container {
+    margin-top: 10px;
+}
+
+.cachetoi{
+    display: none;
+}

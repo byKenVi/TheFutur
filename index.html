@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FUTURETECH</title>
+        <style>
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+    background-color: #333;
+}
+.logo img{
+    max-height: 50px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li{
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: border-bottom 0.3s ease-in-out;
+}
+nav a:hover{
+    border-bottom: 2px solid #fff;
+}
+.main-content{
+    position: relative;
+}
+.hero-section{
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+.background-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: "background.jpg";
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+.services-section{
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    color: #333;
+}
+.service{
+    margin-top: 30px;
+}
+.container{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+        </style>
+    </head>
+<body>
+    <header>
+        <div class="logo">
+<img src="logo.jpg" alt="logo de l'entreprise">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Membre.html">Membres</a></li>
+                <li><a href="Bulletin.html">Bulletin</a></li>
+            </ul>
+        </nav>
+    </header>
+       <div class="main-content">
+<section class="hero-section">
+    <h1>Bienvenu chez FUTURETECH COMMUNITY</h1>
+    <img src="fond.jpg" alt="" style="width: 1800px;" style="height: 300px;">
+    <p>Découvrez nos services et produits exceptionnels.</p>
+</section>
+<div class="background-image"><img src="background.jpg" alt="background-image"></div>
+<section class="services-section">
+    <h2>Nos services</h2>
+    <p>Découvrez ce que nous offrons pour répondre à vos besoins.</p>
+    <div class="container">
+        <div class="text">
+            <div class="service">
+                <h3>Développement en front-end</h3>
+                <p>Le développement en front-end concerne la création et la mise en place de l'interface utilisateur d'une application ou d'un site web. Cela implique l'utilisation de langages tels que HTML, CSS et JavaScript pour concevoir et rendre les éléments visibles et interactifs dans le navigateur. Les développeurs front-end sont responsables de l'aspect visuel, de l'expérience utilisateur et de l'interactivité de la partie client d'une application web. Ils travaillent souvent en étroite collaboration avec les concepteurs pour transformer les maquettes en pages web fonctionnelles.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="text">
+            <div class="service">
+                <h3>Déveoppement back-end</h3>
+                <p>Le développement en back-end consiste à créer la partie invisible d'une application qui gère les données, les requêtes et l'authentification. Les développeurs utilisent des langages tels que Java, Python ou Node.js, ainsi que des frameworks comme Django ou Express.js. Les bases de données, comme MySQL ou MongoDB, stockent les informations, et les serveurs web, tels qu'Apache ou Nginx, facilitent la communication. L'utilisation d'API permet la connexion entre le front-end et le back-end, assurant ainsi le bon fonctionnement de l'application. La sécurité, avec des pratiques telles que le cryptage SSL/TLS, et la gestion des sessions sont également des aspects importants. En résumé, le back-end rend possible les fonctionnalités, la sécurité et la gestion des données qui font tourner une application.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="text">
+            <div class="service">
+                <h3>Sécurité informatique</h3>
+                <p>La sécurité informatique vise à protéger les systèmes, réseaux et données contre les menaces potentielles. Elle englobe divers éléments, tels que la cryptographie, l'authentification, les firewalls, les antivirus et antimalware, les mises à jour de sécurité, la gestion des accès, la sensibilisation à la sécurité, la surveillance des logs, la gestion des vulnérabilités, les plans de reprise d'activité et de continuité d'activité, le chiffrement des communications, et la gestion des identités et des accès (IAM). La sécurité informatique repose sur une approche multicouche, combinant des technologies, des bonnes pratiques et une sensibilisation continue pour contrer les menaces en constante évolution.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="text">
+            <div class="service">
+                <h3>Intélligence artificielle</h3>
+                <p>L'intelligence artificielle (IA) englobe divers éléments, notamment la machine learning, le deep learning, le traitement du langage naturel, la vision par ordinateur, et les réseaux de neurones. Elle vise à créer des systèmes capables d'effectuer des tâches qui nécessitent normalement l'intelligence humaine. L'apprentissage automatique (machine learning) consiste à entraîner des modèles sur des données pour prendre des décisions ou effectuer des prédictions. Le deep learning utilise des réseaux de neurones profonds pour des tâches complexes. Le traitement du langage naturel permet aux machines de comprendre et de générer du langage humain, tandis que la vision par ordinateur analyse et interprète des images. L'IA est utilisée dans divers domaines tels que la reconnaissance vocale, la recommandation de contenu, la détection d'anomalies, et la conduite autonome. Elle évolue rapidement, offrant des opportunités tout en soulevant des questions éthiques et de sécurité.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="text">
+            <div class="service">
+                <h3>Réseau et télécommunication</h3>
+                <p>Le domaine des réseaux et des télécommunications englobe plusieurs aspects, dont la conception, la mise en œuvre et la gestion des systèmes de communication. Cela inclut la connectivité réseau, la transmission de données, la sécurité et la gestion des protocoles. Les réseaux permettent la communication entre différents appareils, tandis que les télécommunications impliquent la transmission de données à distance. Les protocoles de communication, tels que TCP/IP, facilitent l'échange d'informations. Les technologies sans fil, comme le Wi-Fi et la 5G, offrent une connectivité mobile. La sécurité des réseaux, comprenant pare-feu et chiffrement, est cruciale pour protéger les données. La gestion de la bande passante et des adresses IP assure une utilisation efficace des ressources. L'évolution vers des réseaux intelligents, l'Internet des objets (IoT) et la virtualisation sont des tendances majeures dans ce domaine en constante évolution.</p>
+            </div>
+        </div>
+    </div>
+</section>
+       </div>
+    <footer>
+        <p>&copy; 2024 FUTURETECH COMMUNITY.  Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

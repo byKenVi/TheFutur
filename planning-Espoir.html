@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .link-haut {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            justify-content: space-between;
+            margin-left: 1000px;
+        }
+
+        .link {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .link li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .link a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        #planning-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #52568a;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-x: auto;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        #planning-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        #planning-table th, #planning-table td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        #planning-table th {
+            background-color: #3A3;
+            color: #3A3;
+        }
+
+        #planning-table tr:nth-child(even) {
+            background-color: rgb(45, 31, 65);
+        }
+
+        #planning-table tr:hover {
+            background-color: rgb(110, 61, 61);
+        }
+
+        #planning-table td:nth-child(1) {
+            min-width: 100px;
+        }
+
+        #modifier-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        td{
+            color: white;
+        }
+    </style>
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="" style="width: 150px;" style="max-height: 50px;">
+        <nav class="link-haut">
+            <ul class="link">
+                <li><a href="acceuil.html">Acceuil</a></li>
+                <li><a href="Membre.html">Membre</a></li>
+                <li><a href="Bulletin.html">Bulletin</a></li>
+             </ul>
+        </nav>
+    
+    <div id="planning-container">
+        <h2>Emploi du Temps</h2>
+        <table id="planning-table">
+            <tr>
+                <td>Horaires</td>
+                <td>Lundi</td>
+                <td>Mardi</td>
+                <td>Mercredi</td>
+                <td>Jeudi</td>
+                <td>Vendredi</td>
+                <td>Samedi</td>
+                <td>Dimanche</td>
+            </tr>
+            <tr>
+                <td>8:00 - 10:00</td>
+                <td>Mise en place de l'objectif de la semaine</td>
+                <td>Réunion stratégique</td>
+                <td>Réunion stratégique</td>
+                <td>Réunion stratégique</td>
+                <td>Réunion stratégique</td>
+                <td>Réunion stratégique</td>
+                <td>Réunion stratégique</td>
+                
+            </tr>
+            <tr>
+                <td>10:00 - 12:00</td>
+                <td>Maintenance du site internet</td>
+                <td>Rédaction d'article pour le blog du site</td>
+                <td>Publication du premier article de la semaine</td>
+                <td>Rédaction d'article pour le blog du site</td>
+                <td>Maintenance du site internet</td>
+                <td>Publication du deuxième article de la semaine</td>
+                <td>Rédaction d'article pour le blog du site</td>
+                
+            </tr>
+            <tr>
+                <td>12:00 - 14:00</td>
+                <td>Pause</td>
+                <td>Pause</td>
+                <td>Pause</td>
+                <td>Pause</td>
+                <td>Pause</td>
+                <td>Pause</td>
+                <td>Pause</td>               
+            </tr>
+            <tr>
+                <td>14:00 - 18:00</td>
+                <td>Réalisation des projets front-end</td>
+                <td>Réalisation des projets front-end</td>
+                <td>Réalisation des projets back-end</td>
+                <td>Structuration du Marketing de l'entreprise</td>
+                <td>Réalisation des projets back-end</td>
+                <td>Supervisation des projets informatique de la société</td>
+                <td>Bilan des objectifs de la semaine</td>
+                
+            </tr>
+            <tr>
+                <td>19:00 - 23:00</td>
+                <td>Cours du soir</td>
+                <td>Cours du soir</td>
+                <td>Cours du soir</td>
+                <td>Cours du soir</td>
+                <td>Cours du soir</td>
+                <td>Cours du soir</td>
+                <td>Cours du soir</td>               
+            </tr>
+        </table>
+        <button id="modifier-btn">Modifier</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="script.js"></script>
+    </header>
+</body>
+</html>
